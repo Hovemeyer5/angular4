@@ -27,5 +27,5 @@ export class AppComponent {
   	id: 1,
   	name: 'WomperThud'
   };
-  herios = HEROES;
+  heroes = HEROES;
 }
