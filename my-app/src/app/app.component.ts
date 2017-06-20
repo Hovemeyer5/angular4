@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+export class Hero {
+	id: number;
+	name: string;
+}
 
 @Component({
   selector: 'app-root',
@@ -7,5 +11,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tour of Heroes';
-  hero = 'WomperThud';
+  hero: Hero = {
+  	id: 1,
+  	name: 'WomperThud'
+  };
 }
