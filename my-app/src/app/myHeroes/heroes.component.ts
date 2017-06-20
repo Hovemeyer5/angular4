@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from './hero';
-import { HeroService } from './services/hero.service';
+import { Hero } from '../hero';
+import { HeroService } from '../services/hero.service';
 
 
 @Component({
   selector: 'my-heroes',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  templateUrl: './heroes.component.html',
+  styleUrls: ['./heroes.component.css'],
   providers: [HeroService]
 })
 
