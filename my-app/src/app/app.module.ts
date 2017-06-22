@@ -7,7 +7,8 @@ import { HeroDetailComponent } from './heroDetail/hero-detail.component';
 import {HeroesComponent} from './myHeroes/heroes.component';
 import { AppComponent } from './app.component';
 import { HeroService }         from './services/hero.service';
-import {DashboardComponent} from './dashboard/dashboard.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeroSearchComponent } from './heroSearch/hero-search.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 
@@ -19,7 +20,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     AppComponent,
     HeroDetailComponent,
     HeroesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
